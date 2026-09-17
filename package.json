@@ -1,0 +1,14 @@
+{
+  "name": "auth-testing",
+  "version": "1.0.0",
+  "description": "Đăng nhập và kiểm thử với Jest",
+  "main": "auth.js",
+  "scripts": {
+    "test:smoke": "jest auth.smoke.test.js",
+    "test:regression": "jest auth.regression.test.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
